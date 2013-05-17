@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <title>Block Bash</title>
+        <link rel="stylesheet" href="style.css" type="text/css"/>
+        <script type="text/javascript" src="jquery.js"></script>
+        <script type="text/javascript" src="bash.js"></script>
+    </head>
+    <body>
+        <div id="toolbar">
+            <div id="container">
+                <span>Blue health: <strong id="player1_healthx">5 / 5</strong></span>
+                <span>Red health: <strong id="player2_healthx">5 / 5</strong></span>
+                <h3>Block Bash</h3>
+            </div>
+        </div>
+        <div id="main">
+            <table id="board"></table>
+        </div>
+        <div id="overlay" onclick="start(this);">
+            <span id="help">
+                <h1>Block Bash</h1>
+                <span class="controls">
+                    <p>Player 1 controls:</p>
+                    <ul>
+                        <li>WASD to move</li>
+                        <li>TFGH to shoot</li>
+                    </ul>
+                </span>
+                <span class="controls">
+                    <p>Player 2 controls:</p>
+                    <ul>
+                        <li>IJKL to move</li>
+                        <li>&larr;&uarr;&rarr;&darr; to shoot</li>
+                    </ul>
+                </span>
+                <p>(click, space or enter to start)</p>
+            </span>
+        </div>
+    </body>
+</html>
