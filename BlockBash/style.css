@@ -74,7 +74,7 @@ body {
     background: #CCC url(player2.png);
 }
 .weapon1, .weapon2 {
-    background: #CCC url(weapon.gif);
+    background: #CCC url(bullet.gif);
 }
 .playerweapon {
     background-color: #FFF;

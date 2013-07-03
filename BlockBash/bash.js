@@ -321,6 +321,10 @@ $(document).keyup(function(e) {
 });
 $(document).ready(function() {
     buildBoard();
+    var images = ["block.gif", "bullet.gif", "heal.gif", "life.gif", "turn.gif", "weapon.gif", "crate.png", "player1.png", "player2.png"];
+    for (var i in images) {
+        (new Image()).src = images[i];
+    }
     for (var i in sounds) {
         if (i === "bgm") {
             sounds[i] = document.createElement("audio");
